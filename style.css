@@ -229,7 +229,25 @@ body {
 /* Section-posts */
 .section-post-main-text {
   padding-top: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.view-posts {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-slite-50);
+}
+
+.arrow-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
 .section-post-items {
   padding-block: 9.1rem;
   display: grid;
@@ -240,6 +258,7 @@ body {
 .section-post .main-text {
   margin-bottom: 0;
 }
+
 .post-item {
   background-color: var(--color-slite-800);
   border-radius: 20px;
