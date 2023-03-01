@@ -24,3 +24,10 @@ html {
 body {
 	background-color: #0f172a;
 }
+
+.container {
+	width: 100%;
+	max-width: 115em;
+	margin: 0 auto;
+	background-color: #0ea5e9;
+}
