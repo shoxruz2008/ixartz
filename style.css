@@ -252,7 +252,7 @@ body {
   padding-block: 9.1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 9.1rem 2rem;
 }
 
 .section-post .main-text {
